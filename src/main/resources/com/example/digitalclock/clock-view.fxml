@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+
+<GridPane alignment="CENTER" prefWidth="200.0" prefHeight="320.0" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.digitalclock.Controller" vgap="15" >
+
+    <Label fx:id="title" alignment="CENTER" GridPane.columnIndex="0"
+           GridPane.rowIndex="0" text="Digital Clock" textFill="darkred" >
+
+        <font>
+            <Font size="40.0" name="Arial italic">
+
+            </Font>
+        </font>
+<graphic>
+    <ImageView>
+        <Image url="@background clock image .webp"/>
+    </ImageView>
+</graphic>
+    </Label>
+    <Label fx:id="label" alignment="CENTER" GridPane.columnIndex="0"
+           GridPane.rowIndex="2" textFill="darkblue" >
+        <font> <Font size="35.0" name="Arial">
+        </Font>
+        </font>
+    </Label>
+
+
+
+</GridPane>
